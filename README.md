@@ -1,5 +1,3 @@
-![Demo Animation](../assets/42-maths.png) 
-
 
 # Refresher:
 - [Socle en Mathématiques](https://mooc-francophone.com/cours/socle-en-mathematiques/) (MOOC fr - trigonometry, complex, vector, matrix, functions, derivative, integration, integral equation):star2::star2:| :candy:
