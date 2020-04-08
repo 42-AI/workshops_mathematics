@@ -1,5 +1,11 @@
 ![Demo Animation](../assets/42-maths.png) 
 
+
+# Refresher:
+- [Socle en Mathématiques](https://mooc-francophone.com/cours/socle-en-mathematiques/) (MOOC fr - trigonometry, complex, vector, matrix, functions, derivative, integration, integral equation):star2::star2:| :candy:
+
+# Some useful links
+
 |Symbol| Explanation|
 |---------------------|--------|
 | :candy:               | basics notions/ beginner level |
@@ -9,10 +15,6 @@
 | :dart::star2:        | ressource treat differents notions and concept     |
 | :star2::star2: | ressource treat differents notions with respect to a educationnal/logical approach (the goal is well defined) *it is mostly Mooc so it takes several hours/days*     |
 
-# Refresher:
-- [Socle en Mathématiques](https://mooc-francophone.com/cours/socle-en-mathematiques/) (MOOC fr - trigonometry, complex, vector, matrix, functions, derivative, integration, integral equation):star2::star2:| :candy:
-
-# Some useful links
 ## Calculus and derivatives
 - [Calculus, Derivatives 2](https://www.khanacademy.org/test-prep/fr-twelveth-grade-math/les-derivees/introduction-aux-derivees/v/calculus-derivatives-2?utm_campaign=DifferentialCalculus&utm_medium) (khan academy - video 9:30)
 - [Calculus, Chain rule](https://www.khanacademy.org/test-prep/fr-twelveth-grade-math/les-derivees/theoreme-de-a-derivee-des-fonctions-composees/v/chain-rule-introduction) (khan academy - video 5:00)
