@@ -63,6 +63,7 @@ Pour contribuer vous pouvez utiliser tous les outils mis à disposition par Gith
 - [(Imperial College London) Math for ML: multivariate calculus](https://www.coursera.org/learn/multivariate-calculus-machine-learning) (MOOC en - linear regression, vectors calculus, multivariable calculus, gradient descent):star2::star2:| :anger::anger:
 
 ## Linear algebra
+ - [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)(khan academy - MOOC) :candy:|:star2::star2:
 - [Matrices, introduction](https://www.youtube.com/watch?v=xyAuNHPsq-g&list=PLFD0EB975BA0CC1E0) (khan academy - video 11:50) :candy:
 - [Essence of linear algebra (system of linear equations, inverse)](https://www.youtube.com/watch?v=uQhTuRlWMxw) (3Blue1Brown - video 12:08) :dart:
 - [Matrices to solve a system of equations](https://www.youtube.com/watch?v=AUqeb9Z3y3k) (khan academy - video 16:32) :candy:
