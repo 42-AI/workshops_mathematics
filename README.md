@@ -63,14 +63,14 @@ Pour contribuer vous pouvez utiliser tous les outils mis à disposition par Gith
 - [(Imperial College London) Math for ML: multivariate calculus](https://www.coursera.org/learn/multivariate-calculus-machine-learning) (MOOC en - linear regression, vectors calculus, multivariable calculus, gradient descent):star2::star2:| :anger::anger:
 
 ## Linear algebra
- - [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)(khan academy - MOOC) :candy:|:star2::star2:
- - [Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&pbjreload=10)(3Blue1Brown -playlist):candy:|:star2::star2:
-- [Matrices, introduction](https://www.youtube.com/watch?v=xyAuNHPsq-g&list=PLFD0EB975BA0CC1E0) (khan academy - video 11:50) :candy:
-- [Essence of linear algebra (system of linear equations, inverse)](https://www.youtube.com/watch?v=uQhTuRlWMxw) (3Blue1Brown - video 12:08) :dart:
-- [Matrices to solve a system of equations](https://www.youtube.com/watch?v=AUqeb9Z3y3k) (khan academy - video 16:32) :candy:
-- [Sigma notation](https://www.youtube.com/watch?v=5jwXThH6fg4) (khan academy - video 4:26) :candy:
-- [Linear algebra](https://brilliant.org/courses/linear-algebra/) (brilliant.org - web tutorial)
-- [(Imperial College London) Math for ML: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning/home/welcome) (MOOC en - basis(linear algebra), vectors, matrices and transformation matrices, eigen-values/vectors):star2::star2:| :anger::anger:
+ - [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)(khan academy EN - MOOC) :candy:|:star2::star2:
+ - [Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&pbjreload=10)(3Blue1Brown EN - wonderful playlist):candy:|:star2::star2:
+- [Matrices, introduction](https://www.youtube.com/watch?v=xyAuNHPsq-g&list=PLFD0EB975BA0CC1E0) (khan academy EN - video 11:50) :candy:
+- [Essence of linear algebra (system of linear equations, inverse)](https://www.youtube.com/watch?v=uQhTuRlWMxw) (3Blue1Brown EN - video 12:08) :dart:
+- [Matrices to solve a system of equations](https://www.youtube.com/watch?v=AUqeb9Z3y3k) (khan academy EN - video 16:32) :candy:
+- [Sigma notation](https://www.youtube.com/watch?v=5jwXThH6fg4) (khan academy EN - video 4:26) :candy:
+- [Linear algebra](https://brilliant.org/courses/linear-algebra/) (brilliant.org EN - web tutorial)
+- [(Imperial College London) Math for ML: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning/home/welcome) (MOOC EN - basis(linear algebra), vectors, matrices and transformation matrices, eigen-values/vectors):star2::star2:| :anger::anger:
 
-## Principal component analysis (PCA)
-- [(Imperial College London) Math for ML: PCA](https://www.coursera.org/learn/pca-machine-learning) (MOOC en - dimensionality reduction, basic statistics of data, distances and angles between vectors, PCA) :star2::star2:| :anger::anger:
+## Statistics
+- [(Imperial College London) Math for ML: PCA](https://www.coursera.org/learn/pca-machine-learning) (MOOC EN - dimensionality reduction, basic statistics of data, distances and angles between vectors, PCA) :star2::star2:| :anger::anger:
