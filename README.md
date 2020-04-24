@@ -25,8 +25,8 @@ The repository is divided into 3 parts:
 
 
 ## Table of contents
-- [Ateliers mathematiques (fr)](#Ateliers mathématiques)/[Mathematics workshops](#Mathematics workshops)
-- [Rendez-vous mathématiques](#Rendez-vous mathématiques)/[Mathematics rendez-vous](#Mathematics rendez-vous)
+- [Ateliers mathematiques (fr)](#ateliers\ mathématiques)/[Mathematics workshops](#mathematics\ workshops)
+- [Rendez-vous mathématiques](#rendez-vous\ mathématiques)/[Mathematics rendez-vous](#mathematics\ rendez-vous)
 
 
 ## Ateliers mathématiques
@@ -77,11 +77,50 @@ Les rendez-vous mathématiques sont donc par nature, d'un niveau *"intermédiair
 
 ## Mathematics workshops
 
+In first place, the mathematics workshop are adressed to people having difficulties with the basics notions in mathematics or people who whished to reacquaint with mathematics and who planned to study machine learning afterwards.
+
+The mathematics workshops deal with the basics of the analysis, linear algebra and statistics which are learnt during high school.\
+We will push a bit further for linear algebra and strart to learn specific notions to machine learning.
+
+We think these differents notions make the mathematical base to learn and practise machine learning without to get in trouble with maths aspects.
+
+### What are the goals ?
+- To bring you and maths back together or get a refresher,
+- To learn the basics of mathematics to start machine learning,
+- To share, explain and ask help about explanations concerning maths.
+
+### Syllabus
+
+- For the analysis part, you will learn what is a function, study some "common" functions, how to differentiate those functions, how to manipulate and what are the properties of the exponential and natural logarithm functions. You will finish with multivariate function and how to differentiate it with respect to each variables.
+- For linear algebra part, you will lean what is a vector and how to manipulate it. You will tackle the matrices also and learn some operations using matrices.
+- Finally in the statistics part, we will be interested in the mean, the variance and covariance notions.
+
 <p align="center">
   <img src="assets/maths_workshops_overview_eng.png" width="800" alt="mathematic workshops overview" />
 </p>
 
+### When ?
+* **Spring 2020:** The mathematics workshops will take place every monday starting from April 27th at 5:30 pm to 7:30pm (disclamer: Speech will be in french).
+
+
 ## Mathematics rendez-vous
+
+If you are a whiz at Math, please share your passion and come to meet enthusiasts like you.
+
+The mathematics rendez-vous are for those who are curious or passionate about maths.
+Very different subjects concerning mathematics can be treated, related or not with AI.
+Participants are invited to share and explain knowledges.
+
+By nature, the rendez-vous are *"intermediate"* or *"adance"* level.
+
+
+### What are the goals ?
+- To share our knowleges and deal with mathematics in depth,
+- To Express your passion about the mathematics, 
+- To learn 'intermediate' or 'advanced' skills in maths related to ML, DL or any other fields.
+
+### When ?
+* **No 'rendez-vous' planned for the moment (date: April 2020)**.
 
 ## Ressources
 Dans le répertoire *Ressources* vous trouverez:
