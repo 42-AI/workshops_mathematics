@@ -25,8 +25,8 @@ The repository is divided into 3 parts:
 
 
 ## Table of contents
-- [Ateliers mathematiques (fr)](#ateliers\ mathématiques)/[Mathematics workshops](#mathematics\ workshops)
-- [Rendez-vous mathématiques](#rendez-vous\ mathématiques)/[Mathematics rendez-vous](#mathematics\ rendez-vous)
+- [Ateliers mathematiques (fr)](#ateliers-mathématiques)/[Mathematics workshops](#mathematics-workshops)
+- [Rendez-vous mathématiques](#rendez-vous-mathématiques)/[Mathematics rendez-vous](#mathematics-rendez-vous)
 
 
 ## Ateliers mathématiques
