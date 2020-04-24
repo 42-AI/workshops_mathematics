@@ -3,9 +3,9 @@
 </p>
 
 <h3 align="center">
-  <b>You</b> : <i>"Why we should learn all of these maths stuffs ?"</i>\
-  <b>Teacher</b> : <i>"Because it in the syllabus..."</i>\
-  *(during a sunny afternoon day of your schooling)*
+  <b>You</b> : <i>"Why we should learn all of these maths stuffs ?"</i><br>
+  <b>Teacher</b> : <i>"Because it in the syllabus..."</i><br>
+  <i>(You, during a sunny afternoon of your schooling)</i>
 </h3>
 
 # Mathematics Activities
@@ -50,7 +50,7 @@ i
 Les notions sont présentés de manière à ce que vous les compreniez au mieux dans le cadre où nous allons les utiliser: le machine learning. Pour ceux qui ont un bagage mathématiques bien développer, les approximations où les oublies sont voulus afin de ne pas saturer la compréhension.
 
 <p align="center">
-  <img src="assets/maths_workshops_overview_fr.png" width="200" alt="ateliers maths general" />
+  <img src="assets/maths_workshops_overview_fr.png" width="800" alt="ateliers maths general" />
 </p>
 
 ### Quand ?
@@ -77,6 +77,9 @@ Les rendez-vous mathématiques sont donc par nature, d'un niveau *"intermédiair
 
 ## Mathematics workshops
 
+<p align="center">
+  <img src="assets/maths_workshops_overview_eng.png" width="800" alt="mathematic workshops overview" />
+</p>
 
 ## Mathematics rendez-vous
 
