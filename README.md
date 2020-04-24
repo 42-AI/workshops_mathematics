@@ -54,7 +54,7 @@ Les notions sont présentés de manière à ce que vous les compreniez au mieux 
 </p>
 
 ### Quand ?
-* **Printemps 2020:** Les ateliers mathématiques sont  un RDV hebdomadaire qui débutera le lundi 27 avril, de 17h30 à 19h30.
+* **Printemps 2020:** Les ateliers mathématiques sont  un RDV hebdomadaire qui débutera le lundi ~~27 avril~~ **04 mai**, de 17h30 à 19h30.
 
 
 ## Rendez-vous mathématiques
@@ -100,7 +100,7 @@ We think these differents notions make the mathematical base to learn and practi
 </p>
 
 ### When ?
-* **Spring 2020:** The mathematics workshops will take place every monday starting from April 27th at 5:30 pm to 7:30pm (disclamer: Speech will be in french).
+* **Spring 2020:** The mathematics workshops will take place every monday starting from ~~April 27th~~ **May the 4th** at 5:30 pm to 7:30pm (disclamer: Speech will be in french).
 
 **Note:** For the moment (April 24th) all the sheets are in french, they will be translated very soon (for monday, you will have enough materials). 
 
