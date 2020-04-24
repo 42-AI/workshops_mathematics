@@ -3,14 +3,13 @@
 </p>
 
 <h3 align="center">
-  **You** : *"Why we should learn all of these maths stuffs ?"*\
-  **Teacher** : *"Because it in the syllabus..."*\
+  <b>You</b> : <i>"Why we should learn all of these maths stuffs ?"</i>\
+  <b>Teacher</b> : <i>"Because it in the syllabus..."</i>\
   *(during a sunny afternoon day of your schooling)*
 </h3>
 
----
 # Mathematics Activities
----
+
 *(english below)*\
 Bienvenue sur le répertoire regroupant la production et ressources liés aux mathématiques de  de [**42 AI**](http://www.42ai.fr).\
 La production est divisée en 3 catégories:
@@ -31,7 +30,6 @@ The repository is divided into 3 parts:
 
 
 ## Ateliers mathématiques
----
 
 Les ateliers mathématiques s'adressent en premier lieu aux personnes **ayant des difficultés en maths** ou **souhaitant se refamiliariser avec les maths**, pour aborder le  machine learning ou bien uniquement pour le plaisir de refaire des mathématiques.
 
@@ -60,7 +58,6 @@ Les notions sont présentés de manière à ce que vous les compreniez au mieux 
 
 
 ## Rendez-vous mathématiques
----
 
 Si vous avez la <i>bosse des maths</i>, venez partager votre passion et rencontrer des gens pour aller plus loin et progresser.
 
@@ -78,9 +75,12 @@ Les rendez-vous mathématiques sont donc par nature, d'un niveau *"intermédiair
 ### Quand ?
 * **Pas de rendez-vous prévus pour l'instant (date: avril 2020)**.
 
+## Mathematics workshops
+
+
+## Mathematics rendez-vous
 
 ## Ressources
----
 Dans le répertoire *Ressources* vous trouverez:
 * Une liste de liens vers des vidéos, articles ou MOOC traitant des notions mathématiques abordées dans les ateliers mathématiques, rendez-vous mathématiques ou bien parce que les ressources ont été jugées pertinentes ou particulièrement bien expliquées.
 * Un archivage des différentes productions réalisées par le passé.
