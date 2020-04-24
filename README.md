@@ -102,6 +102,8 @@ We think these differents notions make the mathematical base to learn and practi
 ### When ?
 * **Spring 2020:** The mathematics workshops will take place every monday starting from April 27th at 5:30 pm to 7:30pm (disclamer: Speech will be in french).
 
+**Note:** For the moment (April 24th) all the sheets are in french, they will be translated very soon (for monday, you will have enough materials). 
+
 
 ## Mathematics rendez-vous
 
@@ -126,8 +128,6 @@ By nature, the rendez-vous are *"intermediate"* or *"adance"* level.
 Dans le répertoire *Ressources* vous trouverez:
 * Une liste de liens vers des vidéos, articles ou MOOC traitant des notions mathématiques abordées dans les ateliers mathématiques, rendez-vous mathématiques ou bien parce que les ressources ont été jugées pertinentes ou particulièrement bien expliquées.
 * Un archivage des différentes productions réalisées par le passé.
-
-
 
 
 # Fonctionnement du dépôt
