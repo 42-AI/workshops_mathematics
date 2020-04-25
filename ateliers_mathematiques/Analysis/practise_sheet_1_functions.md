@@ -3,8 +3,8 @@
 ## Objectifs:
 L'objectif principal de cette série d'exerices est de vous familiariser avec le vocabulaire autour des fonctions.
 
-## :pencil2: :page_with_curl: Exercice 1: Image et antécédant(s) 
-Le but de l'exercice est que vous vous entraîniez à différencier la notion d'image et d'antécédants.
+## :pencil2: :page_with_curl: Exercice 1: Image et antécédent(s) 
+Le but de l'exercice est que vous vous entraîniez à différencier la notion d'image et d'antécédents.
 De même pour la notion d'ensemblde de définition et l'ensemble image d'une fonction.\
 *Exemple:*
 <p align="center">
@@ -13,8 +13,8 @@ De même pour la notion d'ensemblde de définition et l'ensemble image d'une fon
 
 - L'image de 3 par la fonction f est 3.
 - L'image de -4 par la fonction f est -2.
-- L'antécédant de 0 est -2.
-- Les antécédants de 2 sont 0, 2, 4.
+- L'antécédent de 0 est -2.
+- Les antécédents de 2 sont 0, 2, 4.
 - Le domaine de définition de la fonction est l'intervalle [-5;5] (on voit que x ne peut prendre que des valeurs entre -5 et 5 sur l'axe des abscisses).
 - Le domaine image de la fonction est l'intervalle [-3;3] (on remarque que la fonction f prend des valeurs comprise entre -3 et 3 sur l'axe des ordonnées).
 
@@ -26,7 +26,7 @@ Soient les fonctions g et h dont les représentations graphiques sont représent
 </p>
 
 1. Donner les images de -4, -2, 0 et 3 par les 2 fonctions.
-2. Donner les antécédants de -2, 0 et 2 pour les 2 fonctions.
+2. Donner les antécédents de -2, 0 et 2 pour les 2 fonctions.
 3. Quels sont les domaines de définition et images des 2 fonctions g et h.
 
 
@@ -108,7 +108,7 @@ $$
 Dans cet exercice vous n'aurez plus besoin de vos crayons et de vos feuilles, il est temps de passer à l'application avec python.
 
 ### Partie 1: Images
-Comme vous l'avez vu dans le premier exerice, l'antécédant et l'image sont, en très gros (ça va faire mal aux mathématiciens de lire ça), respectivement l'input et l'ouput de la fonction.
+Comme vous l'avez vu dans le premier exerice, l'antécédent et l'image sont, en très gros (ça va faire mal aux mathématiciens de lire ça), respectivement l'input et l'ouput de la fonction.
 
 Pour calculer les images d'un ensemble X de valeurs, vous savez très probablement le faire.\
 Quatre options (au moins) s'offrent à vous:
@@ -133,7 +133,7 @@ Im = map( funct(x) for x in [-2, -1, 0, 1, 2])
 Cette manière de faire sera pertinente lorsque l'on regardera les fonctions à plusieurs variables mais vous pouvez l'utiliser tout de même si vous le souhaité.
 
 ### Partie 2: Antécédants
-Si l'on souhaite s'intéresser aux antécédants, c'est, à l'inverse de trouver des images, plus compliqué.
+Si l'on souhaite s'intéresser aux antécédents, c'est, à l'inverse de trouver des images, plus compliqué.
 
 Il vous faut raisonner à partir de l'expression algébrique.
 
@@ -161,7 +161,7 @@ En python, vous pouvez utiliser la librairie **Numpy** ou **Sympy** pour résoud
 **Note:**
 Prenez le temps de parcourir la page  sur le [solver de Sympy](https://docs.sympy.org/latest/modules/solvers/solvers.html#algebraic-equations).
 
-Pour cette partie, vous devez pour chacune des fonctions $f$, $g$ et $h$, calculer les antécédants des éléments de la liste $Y$:
+Pour cette partie, vous devez pour chacune des fonctions $f$, $g$ et $h$, calculer les antécédents des éléments de la liste $Y$:
 ```python
 Y = [-25, 13, -42, 42, 21, 19, 1, 0, 3/2]
 ```
