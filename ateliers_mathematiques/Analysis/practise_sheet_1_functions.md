@@ -3,7 +3,7 @@
 ## Objectifs:
 L'objectif principal de cette série d'exerices est de vous familiariser avec le vocabulaire autour des fonctions.
 
-## :pencil2: : page_with_curl: Exercice 1: Image et antécédant(s) 
+## :pencil2: :page_with_curl: Exercice 1: Image et antécédant(s) 
 Le but de l'exercice est que vous vous entraîniez à différencier la notion d'image et d'antécédants.
 De même pour la notion d'ensemblde de définition et l'ensemble image d'une fonction.\
 *Exemple:*
@@ -30,7 +30,7 @@ Soient les fonctions g et h dont les représentations graphiques sont représent
 3. Quels sont les domaines de définition et images des 2 fonctions g et h.
 
 
-## :pencil2: : page_with_curl: Exercice 2: expression algébrique et représentation graphique 
+## :pencil2: :page_with_curl: Exercice 2: expression algébrique et représentation graphique 
 Dans cette exercice, vous allez caclculer des images de différentes fonctions à partir des expréssions algébriques et tracer leurs représentations graphiques.
 
 ---
