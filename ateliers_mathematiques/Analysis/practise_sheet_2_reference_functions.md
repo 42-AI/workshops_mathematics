@@ -82,17 +82,18 @@ Un choix cohérent de modèle présage un meilleur score une fois le modèle ent
 
 ---
 ## Partie 1: [title]
-[axé sur la reconnaissance graphique de fonction paire impaire ou ni l'une ni l'autre]
+[axer sur la reconnaissance graphique du caractère paire impaire ou ni l'un ni l'autre]
 
 ## Partie 2: [title]
 [Coder une fonction de vérification de parité]
 
 ## Partie 3 [title]
-[Étude d'une fonction paire ou impaire plus compliquée avec résolution d'inégalité à faire en codant.]
+[Étude d'une fonction paire ou impaire plus compliquée avec résolutions d'inégalitées à faire en codant.]
 
 ## :snake: Exercice 3 : [title]
 [Proposer 3 problèmes pour montrer la mise en équation de situation: 1 problème géométrique, 1 problème économique (gain/dépense ou autre) ...]
 [Donner une représentation graphique de données (points) demander de choisir un modèle et de fixer à la main les paramètres pour qu'il trouve le meilleur modèle. Jouer sur paire/impaire pour les données pour qu'ils aient un cas d'un modèle paire à choisir, puis impaire, puis compliqué.]
+
 ### Partie 1: 
 
 
