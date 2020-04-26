@@ -35,8 +35,8 @@ But there is no guarantee you will fully understand the topics only with those s
 ## Table of contents
 - [Overview](#overview)
 - [Analysis](#Analysis)
-- [Linear algebra](#Linear algebra)
-- [Statistics and probability](#Statistics ans probability)
+- [Linear algebra](#Linear-algebra)
+- [Statistics and probability](#Statistics-and-probability)
 - [Ressources](#Ressources)
 
 
