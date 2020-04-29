@@ -134,7 +134,7 @@ def parity_guess(f, nb_list):
    Il faut ensuite vérifier que le domaine est symmétrique.
    Ensuite il faut vérifier si l'expression de la fonction est invariable en substituant $x$ par $-x$ ou bien déterminer que les expressions de $f(x) +f(-x)$ ainsi que $f(x) - f(-x)$.
    *(Un peu compliqué, donc je ne le recommande que pour ceux les plus motivés et/ou à l'aise)*\
-   Voici un petit coup de pouce pour ceux qui tenterai de le faire, regarder les éléments suivants.
+   Voici un petit coup de pouce pour ceux qui tenterai de le faire, vous pouvez regarder les éléments suivants.
    
    ```python
    sympy.Symbol
