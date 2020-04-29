@@ -52,11 +52,6 @@ Concernant la parité.
 Les fonctions qui sont possiblement paires impaires doivent au préalable avoir un **domaine de définition $D_f$** que l'on qualifie de **symétrique**.\
 Un domaine de définition (*plus largement un ensemble*) est symmétrique si pour **tout nombre de ce domaine, son opposé appartient aussi au domaine**.\
 Toute fonction dont le domaine de définition n'est pas symmétrique ne peut ni être paire ni impaire.\
-Ainsi les fonctions racines où la racine est paire, comme par exemple:
-$$
-f(x) = \sqrt{x}, \quad g(x) = \sqrt[4]{x}, \quad h(x) = \sqrt[6]{x}
-$$
-ne peuvent pas être paire pu impaire car leurs domaines de définition sont $\mathbb{R}^+$.
 
 Enfin,\
 **une fonction $f$ est dite paire**, si son domaine de définition $D_f$ est symmétrique et si pour tout $x\in D_f$:
@@ -77,18 +72,78 @@ Quant aux fonctions **impaires**, elles sont **symmétriques par rapport au poin
 </p>
 Les courbes en bleues sont des représentations graphiques de fonctions paires et les coutbes en rouges/oranges sont les représentations graphiques de fonctions impaires.\
 
-*Vous vous demandez probablement à quoi cela peut vous servir pour faire du ML. Et bien cela peut vous aider à choisir un ou plusieurs modèles avant de les entraîner.
-Un choix cohérent de modèle présage un meilleur score une fois le modèle entraîné.*
+*Vous vous demandez probablement à quoi cela peut vous servir pour faire du ML. Et bien cela peut vous aider à choisir un ou plusieurs modèles avant de les entraîner.\
+Notamment, après une étape de standardisation des données, il est possible d'observer si les données peuvent être modélisé par une fonction paire, impaire ou n'ayant sans parité.\
+Un choix cohérent de modèle participe à l'obtention d'un score plus faible une fois le modèle entraîné.*
 
 ---
-## Partie 1: [title]
-[axer sur la reconnaissance graphique du caractère paire impaire ou ni l'un ni l'autre]
+## Partie 1:
+Vous allez vous exercer à la reconnaissance de la parité des fonctions visuellement et à partir de l'expression algébrique.\
+1. Pour chacune les fonctions représentées ci dessous, préciser lesquelles sont paires, impaires où ni l'une ou l'autre.
 
-## Partie 2: [title]
-[Coder une fonction de vérification de parité]
+<p align="center">
+<img src="assets/serie_2_exo_2_figure_2.png" width="300" alt="graph ex02 fig 2" />
+<img src="assets/serie_2_exo_2_figure_3.png" width="300" alt="graph ex02 fig 3" />
+<img src="assets/serie_2_exo_2_figure_4.png" width="300" alt="graph ex02 fig 4" />
+</p>
 
-## Partie 3 [title]
-[Étude d'une fonction paire ou impaire plus compliquée avec résolutions d'inégalitées à faire en codant.]
+2. À partir des expressions algébriques des fonctions suivantes, déterminer lesquelles sont paires, impaires ou ni l'un ni l'autre. Le domaine de définition des différentes fonctions est $\mathbb{R}$.
+$$
+f_1(x) = x^2 +4, \quad f_2(x) = -2x - 3 \quad f_3(x) =  x^2 + 1\\
+f_4(x) = -2x^2 + x \quad f_5(x) =  \quad f_6(x) = \frac{1}{x^2} \\
+f_7(x) = \frac{2}{x + 1} \quad f_8(x) = \sqrt{|x|} \quad f_9(x) = 3x^3\sqrt{|x|}\\
+$$
+
+## Partie 2: Coding time !
+Coder une fonction python capable de dire si une fonction est possiblement paire ou impaire ou sans parité.\
+
+Il vous faut prendre en compte 2 choses:
+* le domaine de définition de la fonction,
+* le *"comportement"* de la fonction pour $x$ et $-x$.
+
+Dans la librairie sympy, il n'y a (à la connaissance de l'auteur des exercices) pas de fonction permettant de donner le domaine de définition de la fonction, uniquement le domaine de continuité (** continuous_domain **).\
+Ainsi, vous ne devrez pas vérifier la condition de symmétrie du domaine de définition de la fonction.
+
+1. Coder une fonction qui permet de dire (sans que ça soit démontrer, donc ça reste une supposition) si la fonction est paire, impaire ou sans parité.
+``` python
+def parity_guess(f, nb_list):
+   """
+   Arguments:
+      f : a function or an expression.
+      nb_list : a list of positive numbers.
+   Description:
+      The function calculate the image by the function of each numbers and its opposite values.
+      Then the function compares the 2 lists of images to conclude on the guess of the parity.
+   Return:
+      "La fonction semble paire"
+      La fonction semble impaire"
+      "La fonction n'a pas de parité"
+   """
+```
+2. **Version dure : (facultatif)** 
+   Une version améliorer du code peut être faite en prenant en compte le domaine de définition.
+   Une manière d'obtenir le domaine de définition est de résoudre les 3 équations suivantes:
+   $$
+   \begin{matrix}
+     f(x) & > & 0 \\
+     f(x) & = & 0 \\
+     f(x) & < & 0 \\
+   \end{matrix}
+   $$
+   et d'unir les intervalles de chaque équation.\
+   Il faut ensuite vérifier que le domaine est symmétrique.
+   Ensuite il faut vérifier si l'expression de la fonction est invariable en substituant $x$ par $-x$ ou bien déterminer que les expressions de $f(x) +f(-x)$ ainsi que $f(x) - f(-x)$.
+   *(Un peu compliqué, donc je ne le recommande que pour ceux les plus motivés et/ou à l'aise)*\
+   Voici un petit coup de pouce pour ceux qui tenterai de le faire, regarder les éléments suivants.
+   
+   ```python
+   sympy.Symbol
+   sympy.Lambda
+   sympy.Intersection
+   sympy.Union
+   sympy.expr
+   sympy.subs
+   ```
 
 ## :snake: Exercice 3 : [title]
 [Proposer 3 problèmes pour montrer la mise en équation de situation: 1 problème géométrique, 1 problème économique (gain/dépense ou autre) ...]
