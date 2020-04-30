@@ -145,15 +145,23 @@ def parity_guess(f, nb_list):
    sympy.subs
    ```
 
-## :snake: Exercice 3 : [title]
-[Proposer 3 problèmes pour montrer la mise en équation de situation: 1 problème géométrique, 1 problème économique (gain/dépense ou autre) ...]
-[Donner une représentation graphique de données (points) demander de choisir un modèle et de fixer à la main les paramètres pour qu'il trouve le meilleur modèle. Jouer sur paire/impaire pour les données pour qu'ils aient un cas d'un modèle paire à choisir, puis impaire, puis compliqué.]
+## :snake: Exercice 3 : Trouver le bon modèle
+Pour les 2 parties suivantes, l'objectif est de trouver les modèles les plus pertinents.
 
 ### Partie 1: 
+Une entreprise produit et vend des boules de Nöel. Le prix unitaire est fixé entre $1$ et $10$ €. Le gérant a effectué une étude sur la recette (en milliers d'euros) issue de différentes boules en fonction du prix de vente de celles-ci (vous trouverez les données dans le fichier data_analysis_practise_sheet_2_ex03.csv)
+
+<p align="center">
+<img src="assets/serie_2_exo_3_figure_5.png" width="400" alt="graph ex03 fig 4" />
+</p>
+
+1. Tracer l'évolution de la recette quotidienne en fonction du prix de vente unitaire pour chaque boule de Noël.
+2. Tracer l'évolution de la recette quotidienne moyenne en fonction du prix de vente unitaire pour toutes les boules de Noël.
+3. Proposer un modèle pouvant décrire l'évolution de la recette moyenne.
+4. Représenter le modèle avec les données et plusieurs autres modèles que vous jugez moins bon pour prédire la l'évolution de la recette quotidienne.
 
 
 ### Partie 2: 
 
 
-### Partie 3: 
 
