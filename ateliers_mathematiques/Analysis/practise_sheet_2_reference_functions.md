@@ -82,9 +82,9 @@ Vous allez vous exercer à la reconnaissance de la parité des fonctions visuell
 1. Pour chacune les fonctions représentées ci dessous, préciser lesquelles sont paires, impaires où ni l'une ou l'autre.
 
 <p align="center">
-<img src="assets/serie_2_exo_2_figure_2.png" width="300" alt="graph ex02 fig 2" />
-<img src="assets/serie_2_exo_2_figure_3.png" width="300" alt="graph ex02 fig 3" />
-<img src="assets/serie_2_exo_2_figure_4.png" width="300" alt="graph ex02 fig 4" />
+<img src="assets/serie_2_exo_2_figure_2.png" width="300" alt="graph ex02 fig 1" />
+<img src="assets/serie_2_exo_2_figure_3.png" width="300" alt="graph ex02 fig 2" />
+<img src="assets/serie_2_exo_2_figure_4.png" width="300" alt="graph ex02 fig 3" />
 </p>
 
 2. À partir des expressions algébriques des fonctions suivantes, déterminer lesquelles sont paires, impaires ou ni l'un ni l'autre. Le domaine de définition des différentes fonctions est $\mathbb{R}$.
@@ -152,7 +152,7 @@ Pour les 2 parties suivantes, l'objectif est de trouver les modèles les plus pe
 Une entreprise produit et vend des boules de Nöel. Le prix unitaire est fixé entre $1$ et $10$ €. Le gérant a effectué une étude sur la recette (en milliers d'euros) issue de différentes boules en fonction du prix de vente de celles-ci (vous trouverez les données dans le fichier data_analysis_practise_sheet_2_ex03.csv)
 
 <p align="center">
-<img src="assets/serie_2_exo_3_figure_5.png" width="400" alt="graph ex03 fig 4" />
+<img src="assets/serie_2_exo_3_figure_5.png" width="400" alt="graph ex03 fig 1" />
 </p>
 
 1. Tracer l'évolution de la recette quotidienne en fonction du prix de vente unitaire pour chaque boule de Noël.
@@ -160,8 +160,13 @@ Une entreprise produit et vend des boules de Nöel. Le prix unitaire est fixé e
 3. Proposer un modèle pouvant décrire l'évolution de la recette moyenne.
 4. Représenter le modèle avec les données et plusieurs autres modèles que vous jugez moins bon pour prédire la l'évolution de la recette quotidienne.
 
-
 ### Partie 2: 
+La quantité de boules de Noël vendu dans plusieurs magasins entre le 1er novembre et le 10 décembre a été enregistré et les données son représentée dans le graphique suivant.
 
+<p align="center">
+<img src="assets/serie_2_exo_3_figure_6.png" width="400" alt="graph ex03 fig 2" />
+</p>
 
-
+1. Tracer vous même les données.
+2. Proposer plusieurs modèles qui vous semblent possible.
+3. Tracer ces différents modèles en même temps que les données, conclure sur lequel est le meilleur modèle.
