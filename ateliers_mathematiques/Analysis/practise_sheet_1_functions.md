@@ -5,7 +5,7 @@ L'objectif principal de cette série d'exerices est de vous familiariser avec le
 
 ## :pencil2: :page_with_curl: Exercice 1: Image et antécédent(s) 
 Le but de l'exercice est que vous vous entraîniez à différencier la notion d'image et d'antécédents.
-De même pour la notion d'ensemblde de définition et l'ensemble image d'une fonction.\
+De même pour la notion d'ensemble de définition et l'ensemble image d'une fonction.\
 *Exemple:*
 <p align="center">
 <img src="assets/serie_1_exo_1_figure_1.png" width="400" alt="exemple exo 1" />
@@ -16,10 +16,10 @@ De même pour la notion d'ensemblde de définition et l'ensemble image d'une fon
 - L'antécédent de 0 est -2.
 - Les antécédents de 2 sont 0, 2, 4.
 - Le domaine de définition de la fonction est l'intervalle [-5;5] (on voit que x ne peut prendre que des valeurs entre -5 et 5 sur l'axe des abscisses).
-- Le domaine image de la fonction est l'intervalle [-3;3] (on remarque que la fonction f prend des valeurs comprise entre -3 et 3 sur l'axe des ordonnées).
+- Le domaine image de la fonction est l'intervalle [-3;3] (on remarque que la fonction f prend des valeurs comprises entre -3 et 3 sur l'axe des ordonnées).
 
 À vous de jouer !
-Soient les fonctions g et h dont les représentations graphiques sont représentées sur la figure ci-dessous.
+Soit les fonctions g et h dont les représentations graphiques sont représentées sur la figure ci-dessous.
 
 <p align="center">
 <img src="assets/serie_1_exo_1_figure_2.png" width="400" alt="exemple exo 1" />
@@ -31,7 +31,7 @@ Soient les fonctions g et h dont les représentations graphiques sont représent
 
 
 ## :pencil2: :page_with_curl: Exercice 2: expression algébrique et représentation graphique 
-Dans cette exercice, vous allez caclculer des images de différentes fonctions à partir des expréssions algébriques et tracer leurs représentations graphiques.
+Dans cet exercice, vous allez calculer des images de différentes fonctions à partir des expressions algébriques et tracer leurs représentations graphiques.
 
 ---
 *Exemple:*\
@@ -47,7 +47,7 @@ La variable est $x$ et l'expression algébrique se déduit de l'expression de dr
 $$
 f(x) = 3x-5
 $$
-Si nous désirons connaître l'image de 3 par f, il faut alors substituer (le terme souvent utiliser en maths est injecter) 3 dans l'expression (à la place de x):
+Si nous désirons connaître l'image de 3 par f, il faut alors substituer (le terme souvent utilisé en maths est injecter) 3 dans l'expression (à la place de x):
 $$
 \begin{matrix}
 & f(3) & = & 3\times(3) - 5 \\
@@ -70,7 +70,7 @@ Ce tableau de valeurs permet ensuite de placer ces points (coordonnées ($x$,$f(
 ---
 
 À vous de jouer !\
-Soient les fonctions g et h dont les expressions algébriques sont données ci-dessous:
+Soit les fonctions g et h dont les expressions algébriques sont données ci-dessous:
 $$
 \begin{matrix}
 & \mathbb{R} & & \mathbb{R} \\
@@ -79,10 +79,10 @@ h : & x & \mapsto & 2x + 1\\
 \end{matrix}
 $$
 
-0. Donner l'expression algébrique de la fonction g et de la fonction h.
-1. Donner le tableau de valeurs de ces 2 fonctions pour x appartenant à $\{-5; -4; -3; -2; -1; -\frac{1}{2}; 0; 1; \frac{3}{2}; 2; 3; 4; 5\}$
-2. Tracer les représentations graphiques de ces 2 fonctions.
-3. Par lecture graphique, quels sont les coordonnées du point d'intersection ?
+1. Donner l'expression algébrique de la fonction g et de la fonction h.
+2. Donner le tableau de valeurs de ces 2 fonctions pour x appartenant à $\{-5; -4; -3; -2; -1; -\frac{1}{2}; 0; 1; \frac{3}{2}; 2; 3; 4; 5\}$
+3. Tracer les représentations graphiques de ces 2 fonctions.
+4. Par lecture graphique, quelles sont les coordonnées du point d'intersection ?
 
 L'intersection entre 2 courbes de fonctions se caractérise de manière algébrique par l'égalité entre les 2 fonctions:
 $$
@@ -99,9 +99,9 @@ $$
 \Leftrightarrow x_i = 2\times \frac{2}{5} = \frac{4}{5}
 $$
 
-4. Déterminer par le calcul, les coordonnées du points d'intersection (je vous encourage à refaire le calcul vous même).
+1. Déterminer par le calcul, les coordonnées du point d'intersection (je vous encourage à refaire le calcul vous même).
 
-**Note:** Vous vous frotterez plus longuement aux systèmes d'équations lorsque vous serez à la dernère fiche d'analyse.
+**Note:** Vous vous frotterez plus longuement aux systèmes d'équations lorsque vous serez à la dernière fiche d'analyse.
 
 
 ## :snake: Exercice 3 : Coding time !
@@ -130,9 +130,9 @@ La liste $X$ est $\{ -10, -9, -8, ..., 8, 9, 10\}$.
 funct = lambda x : "expression de la fonction"
 Im = map( funct(x) for x in [-2, -1, 0, 1, 2])
 ```
-Cette manière de faire sera pertinente lorsque l'on regardera les fonctions à plusieurs variables mais vous pouvez l'utiliser tout de même si vous le souhaité.
+Cette manière de faire sera pertinente lorsque l'on regardera les fonctions à plusieurs variables mais vous pouvez l'utiliser tout de même si vous le souhaitez.
 
-### Partie 2: Antécédants
+### Partie 2: Antécédents
 Si l'on souhaite s'intéresser aux antécédents, c'est, à l'inverse de trouver des images, plus compliqué.
 
 Il vous faut raisonner à partir de l'expression algébrique.
@@ -140,7 +140,7 @@ Il vous faut raisonner à partir de l'expression algébrique.
 ---
 *Exemple:*\
 Soit la fonction $f_1 = 8x-10$, imaginons que vous souhaitez déterminer la valeur de x pour laquelle la fonction vaut 4.\
-Vous pouvez alors écrire l'éqution suivante:
+Vous pouvez alors écrire l'équation suivante:
 $$
 4 = f_1(x_s)  = 8x_s-10 \\
 \Leftrightarrow 4 = 8x_s - 10 \\
@@ -173,7 +173,7 @@ Faites cela proprement et coder une fonction qui vous retourne les solutions.
 Enfin, vous allez demander à python de représenter les fonctions que vous souhaitez.\
 Pour cela, rien de tel que le module ```matplotlib.pyplot```.
 
-Votre boulot est de représenter l'ensemble des fonctions présent dans ce sujet, laissez votre côté artiste s'exprimer :
+Votre boulot est de représenter l'ensemble des fonctions présentes dans ce sujet, laissez votre côté artiste s'exprimer :
 * ```plot(X, Y, color = "...", linewidth = ..., marker = ".", ...)```
 * ```scatter(X, Y, ...)```
 * ```subplot()```
