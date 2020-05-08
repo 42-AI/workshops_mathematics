@@ -1,0 +1,276 @@
+\documentclass[11pt, french]{article}
+\usepackage{calc}
+\usepackage{eso-pic}
+
+\newlength{\PageFrameTopMargin}
+\newlength{\PageFrameBottomMargin}
+\newlength{\PageFrameLeftMargin}
+\newlength{\PageFrameRightMargin}
+
+\setlength{\PageFrameTopMargin}{1.5cm}
+\setlength{\PageFrameBottomMargin}{1cm}
+\setlength{\PageFrameLeftMargin}{1cm}
+\setlength{\PageFrameRightMargin}{1cm}
+
+\makeatletter
+
+\newlength{\Page@FrameHeight}
+\newlength{\Page@FrameWidth}
+
+\AddToShipoutPicture{
+  \thinlines
+  \setlength{\Page@FrameHeight}{\paperheight-\PageFrameTopMargin-\PageFrameBottomMargin}
+  \setlength{\Page@FrameWidth}{\paperwidth-\PageFrameLeftMargin-\PageFrameRightMargin}
+  \put(\strip@pt\PageFrameLeftMargin,\strip@pt\PageFrameTopMargin){
+    \framebox(\strip@pt\Page@FrameWidth, \strip@pt\Page@FrameHeight){}}}
+
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Importation des paquets
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{libertine}
+\usepackage{eso-pic}
+\usepackage{hyperref} % allow to write hyperlink (open the url)
+\usepackage{titlesec} % allow to change fontsize of the different section
+\usepackage{tabularx} % allow to create tables with fixed length
+\usepackage{listings} % code highlighting
+\usepackage{xcolor}
+\usepackage{amsmath, nccmath}
+\usepackage{amssymb}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\definecolor{LightGray}{gray}{0.9}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definition des commandes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Permet de définir une image en arrière plan
+\newcommand\BackgroundPic{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight]{background-42-ai.png}%
+\vfill
+}}}
+
+% Définition de la commande pour faire un snippet de code inline
+\newcommand{\inlsnippet}[1]{\colorbox{gray!10}{\mbox{\textcolor{pink}{#1}}}}
+
+% Modification of the style of hyperlink, to be visible
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definition of black backgrounded Python code snippet
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{pink}{HTML}{ff33cc}
+\definecolor{codewhite}{HTML}{ffffff}
+\definecolor{codegreen}{HTML}{00e600}
+\definecolor{codelemon}{HTML}{99ff99}
+\definecolor{codegray}{HTML}{bfbfbf}
+\definecolor{codepurple}{HTML}{9933ff}
+\definecolor{codeblue}{HTML}{0099ff}
+\definecolor{codered}{HTML}{ff3333}
+\definecolor{bg}{HTML}{000000}
+
+\lstdefinestyle{nightly}{
+    language=Python,
+    backgroundcolor=\color{bg},   
+    commentstyle=\fontfamily{cmss}\color{codegreen},
+    keywordstyle=\fontfamily{cmss}\color{codeblue},
+    otherkeywordstyle=\fontfamily{cmss}\color{codered},            
+    numberstyle=\fontfamily{cmss}\small\color{codegray},
+    stringstyle=\fontfamily{cmss}\color{codepurple},
+    basicstyle=\fontfamily{cmss}\small\color{codewhite},
+    emph={def,is,not,in,False,True,as,and,or,from},
+    emphstyle={\fontfamily{cmss}\small\color{pink}},
+    emph={[2]MyClass,__init__,__repr__,__print__},
+    emphstyle={[2]\fontfamily{cmss}\small\color{codered}},
+    emph={[3]str,float,tuple,int,list},
+    emphstyle={[3]\fontfamily{cmss}\small\color{codelemon}},
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  End of definition  %%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Titre, date, auteur
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{} %\author{42-AI}
+\title{Practise sheet}
+%\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Début du document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+%%% >>>>> Page de garde
+\vspace*{2cm}
+\begin{center}
+    \textsc{\fontsize{40}{48} \bfseries Practise Sheet 3}\\[0.6cm]
+    \textsc{\fontsize{40}{48} \bfseries Analysis}\\[0.3cm]
+\end{center}
+\vspace{3cm}
+
+\begin{figure}[!h]
+\center
+\includegraphics[scale=0.5]{logo-42-ai.png}
+\label{fig:1st_page_logo_42ai}
+\end{figure}
+
+\vspace*{2cm}
+\begin{center}
+    \textsc{\fontsize{32}{48} \bfseries Somme et produit généralisés, convention d'Einstein}\\[0.6cm]
+\end{center}
+\vspace{3cm}
+
+\pagenumbering{gobble}
+\newpage
+
+
+%%% >>>>> Document body
+%\begin{center}
+%\chapter{\fontsize{30}{36} \selectfont Practise Sheet 1 - Les bases des fonctions}
+%\end{center}
+%\vspace{10mm}
+
+\section*{Objectifs:}
+L'objectif principal de cette série d'exercices est de vous entraîner à manipuler les sommes et produits généralisées ainsi que la notation d'Einstein largement utilisé en mathématiques et que l'on retrouve dans le formalisme du machine learning..
+
+
+
+
+
+
+\section*{: Exercice 1:}
+Dans cette exercice vous allez devoir expliciter les sommes et produits généralisées ci dessous.
+\begin{align*}
+    (1)\hspace{1cm} & \sum_{i = 1}^{4}2i  & (2)\hspace{1cm} & \prod_{j=1}^{5} \left(\frac{1}{2}\right)^j \\
+    (3)\hspace{1cm} & \sum_{k = 1}^{5} (5-k)^k & (4)\hspace{1cm} & \prod_{l=0}^{5}\left(\frac{1}{2+l}\right)^{2l} \\
+    (5)\hspace{1cm} & L(X,Y,\mathbf{\theta}) = \frac{1}{5}\sum_{i=0}^{4}\left(f(x_i,\mathbf{\theta})-y_i\right)^2  & (6)\hspace{1cm} & \prod_{n=0}^{3}(n-x)^2  \\
+    (7)\hspace{1cm} & f(x) = \sum_{n = 1}^{5} \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n & (8)\hspace{1cm} & L(X,Y,\mathbf{\theta}) = -\sum_{l=0}^{5} y_i\log(f(x_i,\mathbf{\theta}))
+\end{align*}
+
+Les formules $(5)$, $(7)$ et $(8)$ sont des formules que vous pourriez rencontrer un jour en faisant du ML.\\
+En effet, la formule $(5)$ correspond à la formule de l'erreur quadratique moyenne (MSE), la formule $(7)$ correspond au développement en série de Taylor, utilisé lorsque l'on utilise un polynôme afin d'approximer une fonction au voisinage d'un point. Enfin, $(8)$ est une formule de fonction de coût pour un problème de classification (\textit{categorical cross-entropy}).
+
+\section*{: Exercice 2:}
+\begin{enumerate}
+    \item Pour les expressions ci-dessous, développer explicitement les sommes:
+    \begin{equation*}
+    \sum_{i = 1}^{3}\sum_{j = 1}^{2} (i+j) \quad \quad \sum_{k = 1}^{3}\sum_{l = 0}^{2} (-1)^{k}\frac{k+l}{2^l} 
+    \end{equation*}
+    \item Écrire sous la forme de somme généralisée les expressions suivantes:
+    \begin{fleqn}
+    \begin{align*}
+        \hspace{2.5cm}\mathcal{S}_1 &= 1 + 2 + 3 + 4 + 5 + 6\\
+        \hspace{2.5cm}\mathcal{S}_2 &= 2 + 4 + 6 + 8 + 10 + 12 + ... + 40 + 42 \\
+        \hspace{2.5cm}\mathcal{S}_3 &= a_1 + a_2 + a_3 + a_4 + a_5 \\
+        \hspace{2.5cm}\mathcal{S}_3 &= 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128  \\
+        \hspace{2.5cm}\mathcal{S}_5 &= a_1.b_1 + a_2.b_2 + a_3.b_3 + a_4.b_4 + a_5.b_5 \\
+        \hspace{2.5cm}\mathcal{S}_6 &= a_1.b_1 + a_2.b_2 + ... + a_{n-1}.b_{n-1} + a_n.b_n +2n\\
+        \hspace{2.5cm}\mathcal{S}_7 &= 1 - \frac{2}{3} + \frac{4}{5} - \frac{8}{9} + \frac{16}{17} - \frac{32}{33}
+    \end{align*}
+    \end{fleqn}
+\end{enumerate}
+
+\section{Exercice 3:} 
+Dans cet exercice, vous allez manipuler la convention de notation d'Einstein.
+\begin{enumerate}
+    \item Les expressions suivantes utilisent la notation d'Einstein. Explicité ces expressions dans un premier temps puis reformulez les en utilisant la somme généralisée.
+    \begin{align*}
+    \begin{matrix}
+        (1) & b_{ii} & (i \in \{1, 2, 3, 4, 5\}),\\
+        (2) & a_{1j}b_{j1} & (j \in \{1, 2, 3, 4\}),
+    \end{matrix}
+    \end{align*}
+\end{enumerate}
+
+\noindent\rule{\textwidth}{1pt}
+Si vous continuez dans le domaine de l'IA ou que vous continuez à vous formez en mathématiques, il arrivera un jour ou vous tomberez dans un premier temps sur le symbole de Kronecker, puis celui de Levi-Civita (dans cet ordre exactement !).
+\subsubsection*{Symbole de Kronecker:}
+Le symbole de Kronecker est une fonction à 2 variables notée $\mathbf{\delta}$, avec les 2 variables disposées en indices (le plus souvent): $\mathbf{\delta_{ij}}$.\
+La particularité de cette fonction est qu'elle vaut $1$ si les 2 variables sont égales, $0$ sinon:
+\begin{equation*}
+\delta_{ij} = \bigg\{ \begin{matrix} 1,  \text{ si } i = j\\ 0,  \text{ si } i \ne j\end{matrix}
+\end{equation*}
+
+\noindent\rule{\textwidth}{1pt}
+
+\begin{align*}
+\begin{matrix}
+(3) & b_{ij}\delta_{ij} + a_{ij}\delta_{i,j} & (i,j \in \{1, 2, 3, 4\}),\\
+(4) & a_{ij}b_{jk}\delta_{ik} & (i,j,k \in \{1, 2, 3\}),
+\end{matrix}
+\end{align*}
+
+\noindent\rule{\textwidth}{1pt}
+\subsubsection*{Symbole de Levi-Civita:}
+Le symbole de Levi-Civita $\epsilon$ est un déterminant de matrice $(2,2)$ ou $(3,3)$ (dans la majorité des cas), usuellement noté $\varepsilon_{ij}$ ou $\varepsilon_{ijk}$ en fonction de la taille:
+\begin{equation*}
+\varepsilon_{ij} = 
+\begin{vmatrix}
+\delta_{i1} & \delta_{i2} \\
+\delta_{j1} & \delta_{j2}
+\end{vmatrix}\\
+\varepsilon_{ijk} = 
+\begin{vmatrix}
+\delta_{i1} & \delta_{i2} & \delta_{i3} \\
+\delta_{j1} & \delta_{j2} & \delta_{j3} \\
+\delta_{k1} & \delta_{k2} & \delta_{k3}
+\end{vmatrix}
+\end{equation*}
+
+Ce qui donne:
+
+\begin{equation*}
+\varepsilon_{ij} = \Bigg\{
+\begin{matrix}
+1, & \text{ si } & (i,j) = (1,2)\\
+-1,& \text{ si } & (i,j) = (2,1)\\
+0, & \text{ si } & i=j
+\end{matrix}\\
+\varepsilon_{ijk} = \Bigg\{ 
+\begin{matrix}
+1, & si & (i,j,k) \text{ est } & (1,2,3), (2,3,1) \text{ ou } (3,1,2)\\
+-1, & si & (i,j,k) \text{ est } & (1,3,2), (3,2,1) \text{ ou } (2,1,3)\\
+0, & si & i=j \text{, ou } & j = k \text{, ou } i = k
+\end{matrix}
+\end{equation*}
+\textit{(Vous voyez c'était bien le symbole de Kronecker d'abord puis celui de Levi-Civita ensuite !)}
+
+\noindent\rule{\textwidth}{1pt}
+
+
+\begin{align*}
+\begin{matrix}
+(5) & b_{ij}\varepsilon_{ij} & (i,j \in \{1, 2, 3, 4\}), \\
+(6) & b_{ij}\delta_{ij} + b_{kl}\varepsilon_{kl} & (i,j,k,l \in \{1, 2, 3\}),
+\end{matrix}
+\end{align*}
+
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
